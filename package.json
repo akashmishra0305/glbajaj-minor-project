@@ -8,7 +8,6 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.7",
     "concurrently": "^9.1.0",
-    "json-server": "^1.0.0-beta.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.27.0",
@@ -20,8 +19,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "react_and_server": "concurrently \"json-server --watch db.json\" \"react-scripts start\""
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
